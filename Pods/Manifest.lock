@@ -1,0 +1,44 @@
+PODS:
+  - DACircularProgress (2.3.1)
+  - IDMPhotoBrowser (1.11.1):
+    - DACircularProgress
+    - pop
+    - SDWebImage (= 4.0.0)
+  - ImageSlideshow (1.0.0):
+    - ImageSlideshow/Core (= 1.0.0)
+  - ImageSlideshow/Core (1.0.0)
+  - ImageSlideshow/Kingfisher (1.0.0):
+    - ImageSlideshow/Core
+    - Kingfisher (~> 3.0)
+  - Infinity (3.0.2)
+  - Kingfisher (3.4.0)
+  - pop (1.0.9)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SKPhotoBrowser (4.0.1)
+  - VK-ios-sdk (1.4.6)
+
+DEPENDENCIES:
+  - IDMPhotoBrowser
+  - ImageSlideshow (~> 1.0.0)
+  - ImageSlideshow/Kingfisher
+  - Infinity
+  - SDWebImage
+  - SKPhotoBrowser
+  - VK-ios-sdk
+
+SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  IDMPhotoBrowser: 14505b91019a96e36479606cb582f864446dae01
+  ImageSlideshow: 2787e10e202b79ecf5348a205c539fcc5bb8e62b
+  Infinity: 58f5c6d0dac4976d021c11897bd0a122f55e22f3
+  Kingfisher: 5690cfb3d1bddf3a98d679a3a34d0b7294974ed2
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SKPhotoBrowser: 3a7c6fc02aa1620ab17253a47a49fafda46536e8
+  VK-ios-sdk: 7fd48bc5aaa6b96c3197c1987eb6593f2ea67331
+
+PODFILE CHECKSUM: 519b43bf1bd895c67698a10d2978a89c77140f05
+
+COCOAPODS: 1.2.0

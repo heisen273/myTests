@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8FB2761E55EB7800580DB2 /* CHTCollectionViewWaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB25C1E55EB7800580DB2 /* CHTCollectionViewWaterfallLayout.swift */; };
+		3A8FB2771E55EB7800580DB2 /* NTWaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB25E1E55EB7800580DB2 /* NTWaterfallViewController.swift */; };
+		3A8FB2781E55EB7800580DB2 /* NTNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB25F1E55EB7800580DB2 /* NTNavigationController.swift */; };
+		3A8FB2791E55EB7800580DB2 /* artistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB2601E55EB7800580DB2 /* artistTableViewController.swift */; };
+		3A8FB27A1E55EB7800580DB2 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB2621E55EB7800580DB2 /* Artist.swift */; };
+		3A8FB27B1E55EB7800580DB2 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB2631E55EB7800580DB2 /* Extension.swift */; };
+		3A8FB27C1E55EB7800580DB2 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB2641E55EB7800580DB2 /* UIImageExtension.swift */; };
+		3A8FB27D1E55EB7800580DB2 /* VKNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB2651E55EB7800580DB2 /* VKNetworking.swift */; };
+		3A8FB27E1E55EB7800580DB2 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB2671E55EB7800580DB2 /* Macro.swift */; };
+		3A8FB27F1E55EB7800580DB2 /* artistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB2691E55EB7800580DB2 /* artistTableViewCell.swift */; };
+		3A8FB2801E55EB7800580DB2 /* NTWaterfallViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB26A1E55EB7800580DB2 /* NTWaterfallViewCell.swift */; };
+		3A8FB2811E55EB7800580DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB26C1E55EB7800580DB2 /* AppDelegate.swift */; };
+		3A8FB2821E55EB7800580DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8FB26E1E55EB7800580DB2 /* Main.storyboard */; };
+		3A8FB2831E55EB7800580DB2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FB26F1E55EB7800580DB2 /* LoginViewController.swift */; };
+		3A8FB2841E55EB7800580DB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8FB2701E55EB7800580DB2 /* Images.xcassets */; };
+		3A8FB2871E55EB7800580DB2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A8FB2731E55EB7800580DB2 /* Info.plist */; };
+		3A8FB2891E55ED5500580DB2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A8FB2881E55ED5500580DB2 /* Default-568h@2x.png */; };
+		CB74ED49F9364B962285BD54 /* Pods_ArtistApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852ECF9EC76D9AEA1C5D470B /* Pods_ArtistApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A8FB2471E55EB6800580DB2 /* ArtistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtistApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8FB25C1E55EB7800580DB2 /* CHTCollectionViewWaterfallLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHTCollectionViewWaterfallLayout.swift; sourceTree = "<group>"; };
+		3A8FB25E1E55EB7800580DB2 /* NTWaterfallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTWaterfallViewController.swift; sourceTree = "<group>"; };
+		3A8FB25F1E55EB7800580DB2 /* NTNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTNavigationController.swift; sourceTree = "<group>"; };
+		3A8FB2601E55EB7800580DB2 /* artistTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = artistTableViewController.swift; sourceTree = "<group>"; };
+		3A8FB2621E55EB7800580DB2 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		3A8FB2631E55EB7800580DB2 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		3A8FB2641E55EB7800580DB2 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = Extension/UIImageExtension.swift; sourceTree = "<group>"; };
+		3A8FB2651E55EB7800580DB2 /* VKNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKNetworking.swift; sourceTree = "<group>"; };
+		3A8FB2671E55EB7800580DB2 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		3A8FB2691E55EB7800580DB2 /* artistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = artistTableViewCell.swift; sourceTree = "<group>"; };
+		3A8FB26A1E55EB7800580DB2 /* NTWaterfallViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTWaterfallViewCell.swift; sourceTree = "<group>"; };
+		3A8FB26C1E55EB7800580DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A8FB26D1E55EB7800580DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A8FB26F1E55EB7800580DB2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A8FB2701E55EB7800580DB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3A8FB2731E55EB7800580DB2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8FB2881E55ED5500580DB2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		852ECF9EC76D9AEA1C5D470B /* Pods_ArtistApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtistApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8855FFF90CB25FB7D2E45243 /* Pods-ArtistApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtistApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtistApp/Pods-ArtistApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B278BE9495B7F44E37A3CE0A /* Pods-ArtistApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtistApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtistApp/Pods-ArtistApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8FB2441E55EB6800580DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB74ED49F9364B962285BD54 /* Pods_ArtistApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8FB23E1E55EB6800580DB2 = {
+			isa = PBXGroup;
+			children = (
+				3A8FB2751E55EB7800580DB2 /* ArtistApp */,
+				3A8FB2481E55EB6800580DB2 /* Products */,
+				DAEB8C8AD768BECB9CABF01D /* Pods */,
+				E3076150CD5AB0F967C66AB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8FB2481E55EB6800580DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB2471E55EB6800580DB2 /* ArtistApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8FB25D1E55EB7800580DB2 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB25C1E55EB7800580DB2 /* CHTCollectionViewWaterfallLayout.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		3A8FB2611E55EB7800580DB2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB25E1E55EB7800580DB2 /* NTWaterfallViewController.swift */,
+				3A8FB25F1E55EB7800580DB2 /* NTNavigationController.swift */,
+				3A8FB2601E55EB7800580DB2 /* artistTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3A8FB2661E55EB7800580DB2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB2621E55EB7800580DB2 /* Artist.swift */,
+				3A8FB2631E55EB7800580DB2 /* Extension.swift */,
+				3A8FB2641E55EB7800580DB2 /* UIImageExtension.swift */,
+				3A8FB2651E55EB7800580DB2 /* VKNetworking.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3A8FB2681E55EB7800580DB2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB2671E55EB7800580DB2 /* Macro.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		3A8FB26B1E55EB7800580DB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB2691E55EB7800580DB2 /* artistTableViewCell.swift */,
+				3A8FB26A1E55EB7800580DB2 /* NTWaterfallViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3A8FB2741E55EB7800580DB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB2881E55ED5500580DB2 /* Default-568h@2x.png */,
+				3A8FB2731E55EB7800580DB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A8FB2751E55EB7800580DB2 /* ArtistApp */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FB25D1E55EB7800580DB2 /* Layout */,
+				3A8FB2611E55EB7800580DB2 /* ViewControllers */,
+				3A8FB2661E55EB7800580DB2 /* Extensions */,
+				3A8FB2681E55EB7800580DB2 /* Utils */,
+				3A8FB26B1E55EB7800580DB2 /* Views */,
+				3A8FB26C1E55EB7800580DB2 /* AppDelegate.swift */,
+				3A8FB26E1E55EB7800580DB2 /* Main.storyboard */,
+				3A8FB26F1E55EB7800580DB2 /* LoginViewController.swift */,
+				3A8FB2701E55EB7800580DB2 /* Images.xcassets */,
+				3A8FB2741E55EB7800580DB2 /* Supporting Files */,
+			);
+			path = ArtistApp;
+			sourceTree = "<group>";
+		};
+		DAEB8C8AD768BECB9CABF01D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8855FFF90CB25FB7D2E45243 /* Pods-ArtistApp.debug.xcconfig */,
+				B278BE9495B7F44E37A3CE0A /* Pods-ArtistApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3076150CD5AB0F967C66AB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				852ECF9EC76D9AEA1C5D470B /* Pods_ArtistApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8FB2461E55EB6800580DB2 /* ArtistApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8FB2591E55EB6800580DB2 /* Build configuration list for PBXNativeTarget "ArtistApp" */;
+			buildPhases = (
+				4ABA0728A39685639111D99D /* [CP] Check Pods Manifest.lock */,
+				3A8FB2431E55EB6800580DB2 /* Sources */,
+				3A8FB2441E55EB6800580DB2 /* Frameworks */,
+				3A8FB2451E55EB6800580DB2 /* Resources */,
+				0FA03F670DA301B9CEE8751B /* [CP] Embed Pods Frameworks */,
+				2C242D601E27CAD3BCEA2C56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtistApp;
+			productName = ArtistApp;
+			productReference = 3A8FB2471E55EB6800580DB2 /* ArtistApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8FB23F1E55EB6800580DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Walter White";
+				TargetAttributes = {
+					3A8FB2461E55EB6800580DB2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E8C775XDGV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3A8FB2421E55EB6800580DB2 /* Build configuration list for PBXProject "ArtistApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8FB23E1E55EB6800580DB2;
+			productRefGroup = 3A8FB2481E55EB6800580DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8FB2461E55EB6800580DB2 /* ArtistApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8FB2451E55EB6800580DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8FB2871E55EB7800580DB2 /* Info.plist in Resources */,
+				3A8FB2891E55ED5500580DB2 /* Default-568h@2x.png in Resources */,
+				3A8FB2841E55EB7800580DB2 /* Images.xcassets in Resources */,
+				3A8FB2821E55EB7800580DB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FA03F670DA301B9CEE8751B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtistApp/Pods-ArtistApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C242D601E27CAD3BCEA2C56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtistApp/Pods-ArtistApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ABA0728A39685639111D99D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8FB2431E55EB6800580DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8FB2801E55EB7800580DB2 /* NTWaterfallViewCell.swift in Sources */,
+				3A8FB2771E55EB7800580DB2 /* NTWaterfallViewController.swift in Sources */,
+				3A8FB2831E55EB7800580DB2 /* LoginViewController.swift in Sources */,
+				3A8FB27D1E55EB7800580DB2 /* VKNetworking.swift in Sources */,
+				3A8FB2811E55EB7800580DB2 /* AppDelegate.swift in Sources */,
+				3A8FB27E1E55EB7800580DB2 /* Macro.swift in Sources */,
+				3A8FB2791E55EB7800580DB2 /* artistTableViewController.swift in Sources */,
+				3A8FB27F1E55EB7800580DB2 /* artistTableViewCell.swift in Sources */,
+				3A8FB2781E55EB7800580DB2 /* NTNavigationController.swift in Sources */,
+				3A8FB27C1E55EB7800580DB2 /* UIImageExtension.swift in Sources */,
+				3A8FB2761E55EB7800580DB2 /* CHTCollectionViewWaterfallLayout.swift in Sources */,
+				3A8FB27A1E55EB7800580DB2 /* Artist.swift in Sources */,
+				3A8FB27B1E55EB7800580DB2 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A8FB26E1E55EB7800580DB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8FB26D1E55EB7800580DB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8FB2571E55EB6800580DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A8FB2581E55EB6800580DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A8FB25A1E55EB6800580DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8855FFF90CB25FB7D2E45243 /* Pods-ArtistApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8C775XDGV;
+				INFOPLIST_FILE = ArtistApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonsoft.ArtistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3A8FB25B1E55EB6800580DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B278BE9495B7F44E37A3CE0A /* Pods-ArtistApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E8C775XDGV;
+				INFOPLIST_FILE = ArtistApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonsoft.ArtistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8FB2421E55EB6800580DB2 /* Build configuration list for PBXProject "ArtistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8FB2571E55EB6800580DB2 /* Debug */,
+				3A8FB2581E55EB6800580DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8FB2591E55EB6800580DB2 /* Build configuration list for PBXNativeTarget "ArtistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8FB25A1E55EB6800580DB2 /* Debug */,
+				3A8FB25B1E55EB6800580DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8FB23F1E55EB6800580DB2 /* Project object */;
+}

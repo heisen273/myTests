@@ -1,0 +1,6 @@
+framework module Infinity {
+  umbrella header "Infinity-umbrella.h"
+
+  export *
+  module * { export * }
+}

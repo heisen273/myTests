@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/DACircularProgress" "$PODS_CONFIGURATION_BUILD_DIR/IDMPhotoBrowser" "$PODS_CONFIGURATION_BUILD_DIR/ImageSlideshow" "$PODS_CONFIGURATION_BUILD_DIR/Infinity" "$PODS_CONFIGURATION_BUILD_DIR/Kingfisher" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage" "$PODS_CONFIGURATION_BUILD_DIR/SKPhotoBrowser" "$PODS_CONFIGURATION_BUILD_DIR/VK-ios-sdk" "$PODS_CONFIGURATION_BUILD_DIR/pop"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/DACircularProgress/DACircularProgress.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/IDMPhotoBrowser/IDMPhotoBrowser.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ImageSlideshow/ImageSlideshow.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Infinity/Infinity.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Kingfisher/Kingfisher.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage/SDWebImage.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/SKPhotoBrowser/SKPhotoBrowser.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/VK-ios-sdk/VK_ios_sdk.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/pop/pop.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "DACircularProgress" -framework "IDMPhotoBrowser" -framework "ImageSlideshow" -framework "Infinity" -framework "Kingfisher" -framework "SDWebImage" -framework "SKPhotoBrowser" -framework "VK_ios_sdk" -framework "pop"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
